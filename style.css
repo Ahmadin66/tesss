@@ -1,0 +1,88 @@
+body {
+margin:0;
+font-family: Arial;
+background:linear-gradient(135deg,#081c3a,#0d2c6c);
+color:white;
+text-align:center;
+}
+
+.container {
+max-width:420px;
+margin:auto;
+padding:20px;
+}
+
+.card {
+background:#0d2c6c;
+border-radius:20px;
+padding:15px;
+box-shadow:0 8px 20px rgba(0,0,0,0.4);
+}
+
+img {
+width:100%;
+border-radius:15px;
+}
+
+.online {
+color:#00ff99;
+font-size:14px;
+margin-top:5px;
+}
+
+.chatbox {
+background:#111;
+border-radius:12px;
+padding:10px;
+margin-top:10px;
+height:110px;
+overflow:hidden;
+text-align:left;
+font-size:14px;
+}
+
+.msg {
+background:#222;
+padding:6px 10px;
+border-radius:10px;
+margin:5px 0;
+display:inline-block;
+}
+
+.btn {
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:black;
+border-radius:15px;
+padding:15px;
+margin-top:10px;
+text-decoration:none;
+color:white;
+font-size:18px;
+}
+
+.icon {
+width:26px;
+height:26px;
+}
+
+.wa { fill:#25D366;}
+.tg { fill:#2AABEE;}
+.ms { fill:#fff;}
+
+.timer {
+margin-top:10px;
+color:#ff4d4d;
+}
+
+.popup {
+position:fixed;
+bottom:20px;
+left:50%;
+transform:translateX(-50%);
+background:black;
+padding:10px 20px;
+border-radius:10px;
+display:none;
+}
